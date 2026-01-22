@@ -8,7 +8,7 @@ CONDA_ENV="deeptutor"
 echo -e "\033[32m=============================================\033[0m"
 echo -e "\033[32m1. 强制停止Python/Node/Npm所有进程（释放端口）\033[0m"
 echo -e "\033[32m=============================================\033[0m"
-pkill -9 -f "python -m src.api.run_server|npm|node|/root/miniconda/envs/deeptutor/bin/python" > /dev/null 2>&1
+pkill -9 -f "python -m src.api.run_server|next|node|/root/miniconda/envs/deeptutor/bin/python" > /dev/null 2>&1
 echo -e "\033[32m✅ 进程清理完成，端口释放成功\033[0m"
 
 echo -e "\033[32m=============================================\033[0m"
