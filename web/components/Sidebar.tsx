@@ -243,7 +243,7 @@ export default function Sidebar() {
                     : "opacity-100"
                 }`}
               >
-                DeepTutor
+                可学AI
               </h1>
             </div>
             <div
